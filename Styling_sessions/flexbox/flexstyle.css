@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+a:hover{ /*hover is a styling to select hover effect*/
+    color: red;
+    background-color: rgb(221, 143, 25, .3);
+}
+.hom{
+    background-color: gray;
+}
+
+.row1{
+
+    width:1000px;
+    border: 1px solid black;
+    background-color: darkseagreen;
+    height:400px;
+    display: flex;
+    justify-content:space-evenly; /* horizontal content positioning in a div*/
+    align-items:center; /*vertical content positioning in a div*/
+}
+.col{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.col1{
+
+    background-color:palevioletred;
+    flex: 3; /* to overlap the fixed width of the child div and accuire the free horizontal space in parent div*/
+
+}
+.col2{
+
+    background-color: dodgerblue;
+    flex: 1;
+
+}
+.col3{
+
+    background-color: khaki;
+    flex: 3;
+}

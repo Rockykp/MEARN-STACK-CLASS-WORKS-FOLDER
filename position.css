@@ -1,0 +1,28 @@
+body{
+    background-color: ivory;
+}
+div{
+
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}
+.section1{
+
+    position:absolute;
+    top:300px;
+    left:50%;
+    background-color: cadetblue;
+}
+.section2{
+
+    background-color: blueviolet;
+    position: absolute;
+    right: 200px;
+    bottom: 300px;
+}
+.section3{
+
+    background-color: chocolate;
+
+}

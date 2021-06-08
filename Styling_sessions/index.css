@@ -1,0 +1,63 @@
+/* h1{color:blue;
+    text-align: center;
+    text-decoration: underline;
+}
+#state{
+    color: #AD0000;
+}
+.section1{
+    color:blueviolet;
+    text-align: center;
+}*/
+
+/*google color picker to select color for css*/
+/* # is used to select id - #state is to select state id from html file. ID must be unique and cannot be repeated*/
+/* . is used to select the class in html file*/
+
+body{
+    background-color:black ;
+}
+
+.header1{
+    text-align: center;
+    text-decoration: underline;
+    color:white
+}
+
+.state{
+    /*border: 1px solid black;*/    /* order should be = border width, type of border, solid etc.., color of the border*/
+    color:black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    float: left;
+}
+
+.cok{
+    border: 1px solid black;
+    background-color: darksalmon;
+}
+
+.tcr{
+    border: 1px solid black;
+    background-color: turquoise;
+}
+
+.knr{
+    border: 1px solid black;
+    background-color:darkseagreen;
+}
+
+.kd{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+.ekm{
+    border: 1px solid black;
+    background-color: burlywood;
+}
+
+.mp{
+    border: 1px solid black;
+    background-color: darkgray;
+}

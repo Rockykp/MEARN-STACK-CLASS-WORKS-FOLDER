@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.spectrum1{
+    width:99%;
+    height:150px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    float: left;
+}
+.spectrum2{
+    width:99%;
+    height:150px;
+    margin-left: 240px;
+    margin-bottom: 30px;
+    float: left;
+}
+.spectrum3{
+    width:99%;
+    height:50px;
+    margin-left: 130px;
+    float: left;
+}
+
+.row1{
+    border: 4px solid black;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+.row2{
+    border: 4px solid black;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+.row3{
+    border: 4px solid black;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
