@@ -1,0 +1,27 @@
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    display: flex;
+}
+.col{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.col:nth-child(1){
+    background-color: hotpink;
+}
+.col:nth-child(2){
+    background-color: skyblue;
+}
+.col:nth-child(3){
+    background-color: lemonchiffon;
+}
+@media(max-width:500px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
