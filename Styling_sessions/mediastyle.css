@@ -18,6 +18,7 @@
 .col:nth-child(3){
     background-color: lemonchiffon;
 }
+/* mdeia quirey is used to do some trasformation to the design upon meeting certain conditions*/
 @media(max-width:500px){
     .row{
         flex-direction: column;
