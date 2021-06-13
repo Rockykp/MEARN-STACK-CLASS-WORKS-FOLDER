@@ -1,4 +1,4 @@
-// read num
+// read numbers
 //num / by 3 print fiz
 //num / by 5 print buz
 //num / 15 print fizbuz
@@ -15,7 +15,7 @@ var num=105;
 //     console.log("Buz");
 // }
 
-var result="" // empty string so once the result is ready we can fill it
+var result="" // empty string, so once the variable have a value we can print it.
 
 if(num%3==0){ // 15%3==0 // true
     result+="Fiz"; // result=fiz
