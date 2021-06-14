@@ -80,6 +80,22 @@
         .row .button {
             display: flex;
         }
+        .button-rounded-border{
+            border-width:5px;
+            border-color:silver;
+            border-radius: 10px;
+            border-style: solid;
+            background-color: silver;
+        }
+        .button-rounded-border a{
+            text-decoration: none;
+            color: black;
+        }
+        .button-rounded-border:hover{
+            background-color: green;
+            border-color:green;
+        }
+
     </style>
 </head>
 
@@ -172,8 +188,9 @@
             repellendus
             nemo reprehenderit molestiae! Consequuntur iure atque incidunt dolor quod eius magni quibusdam nulla
             eligendi
-            corrupti?</p>
-        <button><a href="#">LEARN MORE</a></button>
+            corrupti?
+        </p>
+        <button class="button-rounded-border"><a href="#">LEARN MORE</a></button>
     </div>
     <div class="col"><img src="../images/luminarschoolgirl.jpeg"></div>
 </div>
