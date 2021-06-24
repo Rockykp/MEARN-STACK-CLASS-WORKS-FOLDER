@@ -4,11 +4,9 @@ var state={name:"Kerala",confirmed_cases:12000,cured:5000}
 
 console.log(state["name"]);
 
-
 // number of confirmed cases
 
 console.log(state.confirmed_cases);
-
 
 // if death is not exisit, add death=100
 

@@ -29,4 +29,3 @@ console.log(employee["name"],employee["salary"]);
 
 employee.salary=35000;
 console.log(employee.name,employee.salary);
-
