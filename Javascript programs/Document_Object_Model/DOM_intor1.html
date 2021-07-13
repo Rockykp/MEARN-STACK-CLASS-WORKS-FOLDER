@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+
+<body>
+    <h1>Document Object Model</h1>
+
+    <h1 id="hone">Java Script Dome</h1>
+
+    <h2 id="htwo"> Document Object Methods</h2>
+    <ul>
+        <li class="lit">first line</li>
+        <li class="lit">second line</li>
+        <li class="lit">third line</li>
+    </ul>
+
+
+    <ul>
+        <li>document.getElementByTagName()</li>
+        <li id="second">document.getElementById()</li>
+        <li id="third">document.getElementsByClassName()</li>
+        <li>document.querySelector()</li>
+        <li>document.querySelectorAll()</li>
+    </ul>
+</body>
+
+<script>
+    
+// document.getElementsByTagName("tagname")
+// document.getElementById("id")
+// document.getElementsByClassName("classname")
+// document.querySelector("tagname")
+// document.querySelector("#id")
+// document.querySelector(".classname")
+// document.querySelectorAll()
+// textContent
+// innerHTML
+
+
+    // var h1 = document.getElementsByTagName("h1") // DOM Tag Name Method
+
+    // for (let tag of h1) {
+    //     tag.style.color = "gray"
+    // }
+
+    // var h2 = document.getElementsByTagName("h2") // DOM Tag Name Method
+
+    // for (let tag of h2) {
+    //     tag.style.color = "green"
+    // }
+
+    // var hone = document.getElementById("hone"); // DOM ID method
+    // hone.style.color = "red";
+
+    // var lit=document.getElementsByClassName("lit"); // DOM class name method 
+    // for (let tag of lit) {
+    //  tag.style.color = "blue"
+    //     }
+    // document.getElementById("second").style.color="red"; // using DOM ID method
+    // third.style.color="green" // we can directly call an element by its id with out using any DOM methds. this only for ID.
+
+    // // var lis=document.querySelectorAll("li") // all ocerance will effect.
+    // // for(let tag of lis){
+    // //     tag.style.color="green"
+    // // }
+    // var lis=document.querySelector("li") // only first ocarence will effect.
+    // lis.style.color="green"
+
+    var htwo=document.querySelector("h2")
+    htwo.textContent="Document Object Model Methods";
+    htwo.innerHTML="<em>Document Object Model Methods</em>";
+    htwo.style.color="red";
+
+
+
+</script>
+
+</html>

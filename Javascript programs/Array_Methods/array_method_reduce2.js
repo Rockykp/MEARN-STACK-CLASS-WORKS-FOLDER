@@ -11,22 +11,14 @@ var products=[
     {code:1009,name:"bittergod",mrp:50,aval_qty:5},
 ]
 
-// print all products whose price is less than 50rs
 
-var less50=products.filter(item=>item.mrp<50)
-console.log(less50);
+// print costly product from the array using reduce method
 
-//print all products in rage of 30-50.
+var costly=products.reduce((item1,item2)=>item1.mrp>item2.mrp?item1:item2)
+console.log(costly);
 
-var range=products.filter(item=>item.mrp>=30 & item.mrp<=50)
-console.log(range);
+// print lowcost product from the array using reduce method
 
-// print out of stocks products.
-
-var outOfStock=products.filter(item=>item.aval_qty==0)
-console.log(outOfStock);
-
-
-
-
+var cheap=products.reduce((item1,item2)=>item1.mrp>item2.mrp?item2:item1)
+console.log(cheap);
 

@@ -3,10 +3,11 @@
 
 var arr=[4,3,2,7,8,9]
 
-var lowFive=arr.filter((num)=>num<5)
+// var lowFive=arr.filter((num)=>num<5)
 
-var highFive=arr.filter((num)=>num>5)
+// var highFive=arr.filter((num)=>num>5)
 
-console.log(lowFive.map(num=>num-=1).concat(highFive.map(num=>num+=1)));
+// console.log(lowFive.map(num=>num-=1).concat(highFive.map(num=>num+=1)));
 
-
+var out=arr.map(num=>num>5?num+1:num-1);
+console.log(out);

@@ -9,24 +9,10 @@ var products=[
     {code:1007,name:"beetroot",mrp:58,aval_qty:5},
     {code:1008,name:"carrot",mrp:60,aval_qty:0},
     {code:1009,name:"bittergod",mrp:50,aval_qty:5},
+    {code:1010,name:"potatto",mrp:50,aval_qty:5},
 ]
 
-// print all products whose price is less than 50rs
+//to find if there is items less
 
-var less50=products.filter(item=>item.mrp<50)
-console.log(less50);
-
-//print all products in rage of 30-50.
-
-var range=products.filter(item=>item.mrp>=30 & item.mrp<=50)
-console.log(range);
-
-// print out of stocks products.
-
-var outOfStock=products.filter(item=>item.aval_qty==0)
-console.log(outOfStock);
-
-
-
-
-
+var isAvalPrice=products.some(item=>item.mrp>=30)
+console.log(isAvalPrice);

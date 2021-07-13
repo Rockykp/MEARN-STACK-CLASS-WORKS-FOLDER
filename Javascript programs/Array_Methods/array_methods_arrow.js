@@ -2,9 +2,11 @@
 
 // ES6
 
+//
+
 // arrow function // to reduce length of the code and make it more readbilty
 
-// add function 
+// add function with out an array method
 
 // function add(num1,num2){
 //     return num1-num2;
@@ -12,9 +14,9 @@
 
 // how to simplify above code using arrow function
 
-let add=(num1,num2)=>num1+num2; // by default it will return value of num1+num2
+let add=(num1,num2)=>(num1+num2); // by default it will return value of num1+num2
 
-//subtract function
+//subtract function with out an array method
 
 // function sub(num1,num2){
 //     return num1-num2;
@@ -25,7 +27,7 @@ let add=(num1,num2)=>num1+num2; // by default it will return value of num1+num2
 let sub=(num1,num2=> num1+num2);
 
 
-// cube function
+// cube function with out an array method
 
 // function cube(num){
 //     return num**3;

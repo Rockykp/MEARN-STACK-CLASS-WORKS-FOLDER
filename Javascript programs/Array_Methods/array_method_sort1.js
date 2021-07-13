@@ -11,22 +11,9 @@ var products=[
     {code:1009,name:"bittergod",mrp:50,aval_qty:5},
 ]
 
-// print all products whose price is less than 50rs
+// sort product upon avl_qty decenting order
 
-var less50=products.filter(item=>item.mrp<50)
-console.log(less50);
+var sortDecent=products.sort((item1,item2)=>item1.aval_qty-item2.aval_qty)
+console.log(sortDecent);
 
-//print all products in rage of 30-50.
-
-var range=products.filter(item=>item.mrp>=30 & item.mrp<=50)
-console.log(range);
-
-// print out of stocks products.
-
-var outOfStock=products.filter(item=>item.aval_qty==0)
-console.log(outOfStock);
-
-
-
-
-
+// sort accending
